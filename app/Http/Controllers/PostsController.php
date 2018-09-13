@@ -97,6 +97,7 @@ class PostsController extends Controller
         $post=Post::find($id);
         dump($post);
         dump($post->user->userName);
+        dump($post->user->email);
     }
 
 
